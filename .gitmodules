@@ -1,0 +1,3 @@
+[submodule "Practicals/Practical4/Practicals/Practical4/hello-docker"]
+	path = Practicals/Practical4/Practicals/Practical4/hello-docker
+	url = https://github.com/TandinZangmo456/DSO101_practical_4
