@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="1" failures="1" errors="0" time="0.359">
+  <testsuite name="GET /" errors="0" failures="1" skipped="0" timestamp="2025-05-29T16:24:03" time="0.33" tests="1">
+    <testcase classname="GET / responds with Hello World from Jenkins!" name="GET / responds with Hello World from Jenkins!" time="0.014">
+      <failure>Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1898:16)
+    at listenInCluster (node:net:1946:12)
+    at Server.listen (node:net:2044:7)
+    at Function.listen (/home/tandinzangmo/Desktop/y2s2/SS2025_DSO101_02230305/Practicals/Practical4/node_modules/express/lib/application.js:635:24)
+    at Object.listen (/home/tandinzangmo/Desktop/y2s2/SS2025_DSO101_02230305/Practicals/Practical4/app.js:9:20)
+    at Runtime._execModule (/home/tandinzangmo/Desktop/y2s2/SS2025_DSO101_02230305/Practicals/Practical4/node_modules/jest-runtime/build/index.js:1439:24)
+    at Runtime._loadModule (/home/tandinzangmo/Desktop/y2s2/SS2025_DSO101_02230305/Practicals/Practical4/node_modules/jest-runtime/build/index.js:1022:12)
+    at Runtime.requireModule (/home/tandinzangmo/Desktop/y2s2/SS2025_DSO101_02230305/Practicals/Practical4/node_modules/jest-runtime/build/index.js:882:12)
+    at Runtime.requireModuleOrMock (/home/tandinzangmo/Desktop/y2s2/SS2025_DSO101_02230305/Practicals/Practical4/node_modules/jest-runtime/build/index.js:1048:21)
+    at Object.require (/home/tandinzangmo/Desktop/y2s2/SS2025_DSO101_02230305/Practicals/Practical4/app.test.js:2:25)
+    at Runtime._execModule (/home/tandinzangmo/Desktop/y2s2/SS2025_DSO101_02230305/Practicals/Practical4/node_modules/jest-runtime/build/index.js:1439:24)
+    at Runtime._loadModule (/home/tandinzangmo/Desktop/y2s2/SS2025_DSO101_02230305/Practicals/Practical4/node_modules/jest-runtime/build/index.js:1022:12)
+    at Runtime.requireModule (/home/tandinzangmo/Desktop/y2s2/SS2025_DSO101_02230305/Practicals/Practical4/node_modules/jest-runtime/build/index.js:882:12)
+    at jestAdapter (/home/tandinzangmo/Desktop/y2s2/SS2025_DSO101_02230305/Practicals/Practical4/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:77:13)
+    at runTestInternal (/home/tandinzangmo/Desktop/y2s2/SS2025_DSO101_02230305/Practicals/Practical4/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/home/tandinzangmo/Desktop/y2s2/SS2025_DSO101_02230305/Practicals/Practical4/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
